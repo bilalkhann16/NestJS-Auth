@@ -7,7 +7,6 @@ import { AuthDto } from './dto';
 import * as users from "../users.json"
 import { JwtService } from '@nestjs/jwt';
 
-
 @Injectable()
 export class AuthService {
     constructor (private jwtService: JwtService){
